@@ -10,7 +10,8 @@ scaler = joblib.load('Scaler.joblib')
 logistic = joblib.load('Logistic.joblib')
 svc = joblib.load('SVC.joblib')
 
-st.title('Heart Disease Prediction Model')
+st.title('Attack Saver : Heart Disease Prediction at Home')
+st.write('Get your self checked from the comfort of your home')
 
 sex_options = ['M', 'F']
 chest_pain_options = ['ATA', 'NAP', 'ASY', 'TA']
@@ -55,5 +56,5 @@ if st.button('Predict'):
     res = svc.predict(input)
     st.write('Result of Support Vector Machine : ' + str(res[0]))
     st.write('0 means safe from heart diseases')
-    st.write('1 means susceptable to heart diseases')
+    st.write('1 means susceptible to heart diseases')
 
