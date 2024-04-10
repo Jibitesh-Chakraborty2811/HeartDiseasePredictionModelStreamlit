@@ -59,6 +59,9 @@ if st.button('Predict'):
     st.write('0 means safe from heart diseases')
     st.write('1 means susceptible to heart diseases')
 
+
+st.write('This heart disease prediction project can evolve and make valuable contributions to early detection by developing a userfriendly interface for the predictive model that allows easy input of patient data, that can be self assessed with the help of portable biosensors which are used at homes/chemist shops or reports from some clinical tests.This data as input through the user friendly interface will give insights as to whether a person is at a risk of a heart disease and show the analytics accordingly.This will help all people to get an early prediction and they can then seek medical advice if needed. Although hospitals may have many similar softwares like this, normal people do not have access to anything of this sort at their homes.')
+st.write('')
 st.write('0.Age: age of the patient [years]')
 st.write('1.Sex: sex of the patient [M: Male, F: Female]')
 st.write('2.ChestPainType: chest pain type [TA: Typical Angina, ATA: Atypical Angina, NAP: Non-Anginal Pain, ASY: Asymptomatic]')
